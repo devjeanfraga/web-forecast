@@ -16,7 +16,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "SET PORT=3001 SKIP_PREFLIGHT_CHECK=true && react-scripts start",
+    "start": "node server.js",
+    "start:dev": "SET PORT=3001 SKIP_PREFLIGHT_CHECK=true && react-scripts start",
     "lint": "eslint . --cache-location node_modules/.cache/eslint",
     "format": "prettier --write \"**/*.+(js|json|css|md|mdx|html)\""
   },
