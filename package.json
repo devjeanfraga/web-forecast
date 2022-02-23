@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "express": "^4.17.3",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "start:dev": "SET PORT=3001 SKIP_PREFLIGHT_CHECK=true && react-scripts start",
+    "start:dev": "react-scripts start",
     "lint": "eslint . --cache-location node_modules/.cache/eslint",
     "format": "prettier --write \"**/*.+(js|json|css|md|mdx|html)\""
   },
