@@ -3,7 +3,9 @@
 
 ## Como rodar o projeto:
 
- Dentro do diretório `/web` execute `yarn` para instalar as dependencias e em seguida `yarn start` para executar o projeto que por padrão vai ficar disponível em [http://localhost:3001](http://localhost:3001).
+ 1 - Clone ou faça o download do repositório 
+ 
+ 2 - Dentro do diretório `/web` execute `yarn` para instalar as dependencias e em seguida `yarn start` para executar o projeto que por padrão vai ficar disponível em [http://localhost:3001](http://localhost:3001).
 
 Pronto! 🤓
 
