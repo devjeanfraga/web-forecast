@@ -8,3 +8,26 @@ SET PORT=3001 SKIP_PREFLIGHT_CHECK=true &&
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+
+    const express = require('express')
+const {resolve} = require('path');
+
+
+const app = express();
+
+app.use('/',
+  express.static(
+    resolve(
+      __dirname, './public'
+    )
+  )
+)
+
+
+app.listen(process.env.PORT || 3001, (err)=> {
+  if(err){
+    console.log( err );
+  }
+  console.log('web-forecas Rodando com Sucesso');
+})
